@@ -1,0 +1,10 @@
+^C:\WORK\GRAPHICS_PRACTICE\BUILD\DEP_SPDLOG-PREFIX\SRC\DEP_SPDLOG-BUILD\CMAKEFILES\852B4DED21602F9BC1366BC599B59A0B\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

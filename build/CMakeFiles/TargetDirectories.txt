@@ -1,0 +1,6 @@
+C:/Work/Graphics_Practice/build/CMakeFiles/Graphics.dir
+C:/Work/Graphics_Practice/build/CMakeFiles/dep_spdlog.dir
+C:/Work/Graphics_Practice/build/CMakeFiles/dep_glfw.dir
+C:/Work/Graphics_Practice/build/CMakeFiles/dep_glad.dir
+C:/Work/Graphics_Practice/build/CMakeFiles/ALL_BUILD.dir
+C:/Work/Graphics_Practice/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/dep_glad"
+		},
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/2e3200a8f1f4917189e740b746efc50a/dep_glad.rule"
+		},
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/362cf46e0c31af31f684a228747aea80/dep_glad-complete.rule"
+		},
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-build.rule"
+		},
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-configure.rule"
+		},
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-download.rule"
+		},
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-install.rule"
+		},
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-mkdir.rule"
+		},
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-patch.rule"
+		},
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-test.rule"
+		},
+		{
+			"file" : "C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glad"
+		],
+		"name" : "dep_glad"
+	}
+}

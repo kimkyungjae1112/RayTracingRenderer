@@ -1,0 +1,32 @@
+^C:\WORK\GRAPHICS_PRACTICE\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD-BUILD\CMAKEFILES\171B255AB4858362622DC3FBE3241B06\GLAD.C.RULE
+setlocal
+cd C:\Work\Graphics_Practice\build\dep_glad-prefix\src\dep_glad
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\user\AppData\Local\Programs\Python\Python313\python.exe -m glad --profile=compatibility --out-path=C:/Work/Graphics_Practice/build/dep_glad-prefix/src/dep_glad-build --api= --generator=c --extensions= --spec=gl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\WORK\GRAPHICS_PRACTICE\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD-BUILD\CMAKEFILES\D6AF3826B6FC103F023BAA72A36F4AA2\GLAD-GENERATE-FILES.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\WORK\GRAPHICS_PRACTICE\BUILD\DEP_GLAD-PREFIX\SRC\DEP_GLAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Work/Graphics_Practice/build/dep_glad-prefix/src/dep_glad -BC:/Work/Graphics_Practice/build/dep_glad-prefix/src/dep_glad-build --check-stamp-file C:/Work/Graphics_Practice/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

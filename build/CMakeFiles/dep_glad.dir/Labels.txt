@@ -1,0 +1,14 @@
+# Target labels
+ dep_glad
+# Source files and their labels
+C:/Work/Graphics_Practice/build/CMakeFiles/dep_glad
+C:/Work/Graphics_Practice/build/CMakeFiles/2e3200a8f1f4917189e740b746efc50a/dep_glad.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/362cf46e0c31af31f684a228747aea80/dep_glad-complete.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-build.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-configure.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-download.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-install.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-mkdir.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-patch.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-test.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/57be6a7ed07bd98c86588891b27f98ba/dep_glad-update.rule

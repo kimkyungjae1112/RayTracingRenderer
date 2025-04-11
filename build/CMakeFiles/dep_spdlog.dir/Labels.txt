@@ -1,0 +1,14 @@
+# Target labels
+ dep_spdlog
+# Source files and their labels
+C:/Work/Graphics_Practice/build/CMakeFiles/dep_spdlog
+C:/Work/Graphics_Practice/build/CMakeFiles/2e3200a8f1f4917189e740b746efc50a/dep_spdlog.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/362cf46e0c31af31f684a228747aea80/dep_spdlog-complete.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/0baef6750a26fbb956fb4a4f20c79eb8/dep_spdlog-build.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/0baef6750a26fbb956fb4a4f20c79eb8/dep_spdlog-configure.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/0baef6750a26fbb956fb4a4f20c79eb8/dep_spdlog-download.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/0baef6750a26fbb956fb4a4f20c79eb8/dep_spdlog-install.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/0baef6750a26fbb956fb4a4f20c79eb8/dep_spdlog-mkdir.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/0baef6750a26fbb956fb4a4f20c79eb8/dep_spdlog-patch.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/0baef6750a26fbb956fb4a4f20c79eb8/dep_spdlog-test.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/0baef6750a26fbb956fb4a4f20c79eb8/dep_spdlog-update.rule

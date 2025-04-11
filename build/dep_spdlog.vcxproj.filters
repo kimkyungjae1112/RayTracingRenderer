@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\Graphics_Practice\build\CMakeFiles\0baef6750a26fbb956fb4a4f20c79eb8\dep_spdlog-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Work\Graphics_Practice\build\CMakeFiles\0baef6750a26fbb956fb4a4f20c79eb8\dep_spdlog-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Work\Graphics_Practice\build\CMakeFiles\0baef6750a26fbb956fb4a4f20c79eb8\dep_spdlog-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Work\Graphics_Practice\build\CMakeFiles\0baef6750a26fbb956fb4a4f20c79eb8\dep_spdlog-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Work\Graphics_Practice\build\CMakeFiles\0baef6750a26fbb956fb4a4f20c79eb8\dep_spdlog-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Work\Graphics_Practice\build\CMakeFiles\0baef6750a26fbb956fb4a4f20c79eb8\dep_spdlog-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Work\Graphics_Practice\build\CMakeFiles\0baef6750a26fbb956fb4a4f20c79eb8\dep_spdlog-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Work\Graphics_Practice\build\CMakeFiles\0baef6750a26fbb956fb4a4f20c79eb8\dep_spdlog-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Work\Graphics_Practice\build\CMakeFiles\362cf46e0c31af31f684a228747aea80\dep_spdlog-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Work\Graphics_Practice\build\CMakeFiles\2e3200a8f1f4917189e740b746efc50a\dep_spdlog.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Work\Graphics_Practice\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Work\Graphics_Practice\build\CMakeFiles\dep_spdlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BCD60D69-3C0F-3A43-BA4E-AF444AB52160}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

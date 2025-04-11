@@ -1,0 +1,10 @@
+^C:\WORK\GRAPHICS_PRACTICE\BUILD\DEP_SPDLOG-PREFIX\SRC\DEP_SPDLOG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Work/Graphics_Practice/build/dep_spdlog-prefix/src/dep_spdlog -BC:/Work/Graphics_Practice/build/dep_spdlog-prefix/src/dep_spdlog-build --check-stamp-file C:/Work/Graphics_Practice/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

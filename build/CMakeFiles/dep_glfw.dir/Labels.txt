@@ -1,0 +1,14 @@
+# Target labels
+ dep_glfw
+# Source files and their labels
+C:/Work/Graphics_Practice/build/CMakeFiles/dep_glfw
+C:/Work/Graphics_Practice/build/CMakeFiles/2e3200a8f1f4917189e740b746efc50a/dep_glfw.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/362cf46e0c31af31f684a228747aea80/dep_glfw-complete.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/3d6cd1f0c4a46e9da81434670b366ed4/dep_glfw-build.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/3d6cd1f0c4a46e9da81434670b366ed4/dep_glfw-configure.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/3d6cd1f0c4a46e9da81434670b366ed4/dep_glfw-download.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/3d6cd1f0c4a46e9da81434670b366ed4/dep_glfw-install.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/3d6cd1f0c4a46e9da81434670b366ed4/dep_glfw-mkdir.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/3d6cd1f0c4a46e9da81434670b366ed4/dep_glfw-patch.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/3d6cd1f0c4a46e9da81434670b366ed4/dep_glfw-test.rule
+C:/Work/Graphics_Practice/build/CMakeFiles/3d6cd1f0c4a46e9da81434670b366ed4/dep_glfw-update.rule

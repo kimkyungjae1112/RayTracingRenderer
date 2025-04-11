@@ -1,0 +1,297 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      msbuild 버전 17.9.5+33de0b227(.NET Framework용)
+      빌드 시작: 2025-04-10 오후 5:36:17
+      
+      1 노드의 "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
+      PrepareForBuild:
+        "Debug\\" 디렉터리를 만들고 있습니다.
+        구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+        "Debug\\CompilerIdC.tlog\\" 디렉터리를 만들고 있습니다.
+      InitializeBuildStatus:
+        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
+      "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      
+      빌드했습니다.
+          경고 0개
+          오류 0개
+      
+      경과 시간: 00:00:00.55
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-43o5la"
+      binary: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-43o5la"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-43o5la'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_72673.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.9.5+33de0b227(.NET Framework용)
+        빌드 시작: 2025-04-10 오후 5:36:17
+        
+        1 노드의 "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-43o5la\\cmTC_72673.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_72673.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-43o5la\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_72673.dir\\Debug\\cmTC_72673.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_72673.dir\\Debug\\cmTC_72673.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_72673.dir\\Debug\\cmTC_72673.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72673.dir\\Debug\\\\" /Fd"cmTC_72673.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33135(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72673.dir\\Debug\\\\" /Fd"cmTC_72673.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-43o5la\\Debug\\cmTC_72673.exe" /INCREMENTAL /ILK:"cmTC_72673.dir\\Debug\\cmTC_72673.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-43o5la/Debug/cmTC_72673.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-43o5la/Debug/cmTC_72673.lib" /MACHINE:X64  /machine:x64 cmTC_72673.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_72673.vcxproj -> C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-43o5la\\Debug\\cmTC_72673.exe
+        FinalizeBuildStatus:
+          "cmTC_72673.dir\\Debug\\cmTC_72673.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_72673.dir\\Debug\\cmTC_72673.tlog\\cmTC_72673.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-43o5la\\cmTC_72673.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:61 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-tzdxn4"
+      binary: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-tzdxn4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-tzdxn4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_646e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.9.5+33de0b227(.NET Framework용)
+        빌드 시작: 2025-04-10 오후 5:36:18
+        
+        1 노드의 "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-tzdxn4\\cmTC_646e0.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_646e0.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-tzdxn4\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_646e0.dir\\Debug\\cmTC_646e0.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_646e0.dir\\Debug\\cmTC_646e0.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_646e0.dir\\Debug\\cmTC_646e0.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_646e0.dir\\Debug\\\\" /Fd"cmTC_646e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-tzdxn4\\src.c"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33135(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_646e0.dir\\Debug\\\\" /Fd"cmTC_646e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-tzdxn4\\src.c"
+          src.c
+        C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-tzdxn4\\src.c(1,10): error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-tzdxn4\\cmTC_646e0.vcxproj]
+        "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-tzdxn4\\cmTC_646e0.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        
+        빌드하지 못했습니다.
+        
+        "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-tzdxn4\\cmTC_646e0.vcxproj"(기본 대상)(1)->
+        (ClCompile 대상) -> 
+          C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-tzdxn4\\src.c(1,10): error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-tzdxn4\\cmTC_646e0.vcxproj]
+        
+            경고 0개
+            오류 1개
+        
+        경과 시간: 00:00:00.30
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:61 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-lae2g0"
+      binary: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-lae2g0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-lae2g0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_89d29.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.9.5+33de0b227(.NET Framework용)
+        빌드 시작: 2025-04-10 오후 5:36:18
+        
+        1 노드의 "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-lae2g0\\cmTC_89d29.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_89d29.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-lae2g0\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_89d29.dir\\Debug\\cmTC_89d29.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_89d29.dir\\Debug\\cmTC_89d29.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_89d29.dir\\Debug\\cmTC_89d29.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89d29.dir\\Debug\\\\" /Fd"cmTC_89d29.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-lae2g0\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33135(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89d29.dir\\Debug\\\\" /Fd"cmTC_89d29.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-lae2g0\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-lae2g0\\Debug\\cmTC_89d29.exe" /INCREMENTAL /ILK:"cmTC_89d29.dir\\Debug\\cmTC_89d29.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-lae2g0/Debug/cmTC_89d29.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-lae2g0/Debug/cmTC_89d29.lib" /MACHINE:X64  /machine:x64 cmTC_89d29.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthreads.lib' 파일을 열 수 없습니다. [C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-lae2g0\\cmTC_89d29.vcxproj]
+        "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-lae2g0\\cmTC_89d29.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        
+        빌드하지 못했습니다.
+        
+        "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-lae2g0\\cmTC_89d29.vcxproj"(기본 대상)(1)->
+        (Link 대상) -> 
+          LINK : fatal error LNK1104: 'pthreads.lib' 파일을 열 수 없습니다. [C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-lae2g0\\cmTC_89d29.vcxproj]
+        
+            경고 0개
+            오류 1개
+        
+        경과 시간: 00:00:00.32
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:61 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-8bx8d7"
+      binary: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-8bx8d7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-8bx8d7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_44c87.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.9.5+33de0b227(.NET Framework용)
+        빌드 시작: 2025-04-10 오후 5:36:19
+        
+        1 노드의 "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-8bx8d7\\cmTC_44c87.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_44c87.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-8bx8d7\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_44c87.dir\\Debug\\cmTC_44c87.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_44c87.dir\\Debug\\cmTC_44c87.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_44c87.dir\\Debug\\cmTC_44c87.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44c87.dir\\Debug\\\\" /Fd"cmTC_44c87.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-8bx8d7\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.38.33135(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44c87.dir\\Debug\\\\" /Fd"cmTC_44c87.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-8bx8d7\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-8bx8d7\\Debug\\cmTC_44c87.exe" /INCREMENTAL /ILK:"cmTC_44c87.dir\\Debug\\cmTC_44c87.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-8bx8d7/Debug/cmTC_44c87.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Work/Graphics_Practice/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-8bx8d7/Debug/cmTC_44c87.lib" /MACHINE:X64  /machine:x64 cmTC_44c87.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthread.lib' 파일을 열 수 없습니다. [C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-8bx8d7\\cmTC_44c87.vcxproj]
+        "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-8bx8d7\\cmTC_44c87.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        
+        빌드하지 못했습니다.
+        
+        "C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-8bx8d7\\cmTC_44c87.vcxproj"(기본 대상)(1)->
+        (Link 대상) -> 
+          LINK : fatal error LNK1104: 'pthread.lib' 파일을 열 수 없습니다. [C:\\Work\\Graphics_Practice\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-8bx8d7\\cmTC_44c87.vcxproj]
+        
+            경고 0개
+            오류 1개
+        
+        경과 시간: 00:00:00.33
+        
+      exitCode: 1
+...

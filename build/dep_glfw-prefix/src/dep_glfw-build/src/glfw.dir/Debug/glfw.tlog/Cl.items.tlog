@@ -1,0 +1,15 @@
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\context.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\context.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\init.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\init.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\input.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\input.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\monitor.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\monitor.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\vulkan.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\vulkan.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\window.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\window.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\win32_init.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\win32_init.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\win32_joystick.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\win32_joystick.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\win32_monitor.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\win32_monitor.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\win32_time.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\win32_time.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\win32_thread.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\win32_thread.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\win32_window.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\win32_window.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\wgl_context.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\wgl_context.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\egl_context.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\egl_context.obj
+C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw\src\osmesa_context.c;C:\Work\Graphics_Practice\build\dep_glfw-prefix\src\dep_glfw-build\src\glfw.dir\Debug\osmesa_context.obj
