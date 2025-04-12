@@ -26,12 +26,14 @@ double Vector::DotProduct(const Vector& InVector) const
 
 double Vector::Size() const
 {
-    return sqrt(x * x + y * y + z * z);
+   return sqrt(x * x + y * y + z * z);
 }
 
 Vector Vector::Normalization() const
 {
-    return Vector(x / Size(), y / Size(), z / Size());
+    double size = Size();
+    if(size == 0) return *this;
+    return Vector(x / size, y / size, z / size, w);
 }
 
 Vector Vector::operator+(const Vector& InVector) const
@@ -114,6 +116,6 @@ Vector operator/(const double& rhs, const Vector& InVector)
 std::ostream& operator<<(std::ostream& os, const Vector& InVector)
 {
     os << "[벡터의 성분]" << std::endl;
-    os << "[x : " << InVector.x << " y : " << InVector.y << " z : " << InVector.z << "]" << std::endl;
+    os << "[x : " << InVector.x << " y : " << InVector.y << " z : " << InVector.z << " w : " << InVector.w << "]" << std::endl;
     return os;
 }

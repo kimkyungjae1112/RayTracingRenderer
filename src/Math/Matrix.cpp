@@ -23,10 +23,11 @@ void Matrix::ViewingTransformationMat(std::vector<Vector> UVWE)
 
 Vector Matrix::operator*(const Vector& rhs)
 {
-    return Vector(Mat4[0].x * rhs.x + Mat4[1].x * rhs.y + Mat4[2].x * rhs.z + Mat4[3].x * rhs.w,
-        Mat4[0].y * rhs.x + Mat4[1].y * rhs.y + Mat4[2].y * rhs.z + Mat4[3].y * rhs.w,
-        Mat4[0].z * rhs.x + Mat4[1].z * rhs.y + Mat4[2].z * rhs.z + Mat4[3].z * rhs.w,
-        Mat4[0].w * rhs.x + Mat4[1].w * rhs.y + Mat4[2].w * rhs.z + Mat4[3].w * rhs.w
+    return Vector(
+        rhs.x * Mat4[0].x + rhs.y * Mat4[1].x + rhs.z * Mat4[2].x + rhs.w * Mat4[3].x,
+        rhs.x * Mat4[0].y + rhs.y * Mat4[1].y + rhs.z * Mat4[2].y + rhs.w * Mat4[3].y,
+        rhs.x * Mat4[0].z + rhs.y * Mat4[1].z + rhs.z * Mat4[2].z + rhs.w * Mat4[3].z,
+        rhs.x * Mat4[0].w + rhs.y * Mat4[1].w + rhs.z * Mat4[2].w + rhs.w * Mat4[3].w
     );
 }
 

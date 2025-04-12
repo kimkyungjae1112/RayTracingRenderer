@@ -13,6 +13,8 @@ add_executable(${PROJECT_NAME}
     src/Math/Vector.cpp src/Math/Vector.h
     src/Math/Matrix.cpp src/Math/Matrix.h
     src/Render/Context.cpp src/Render/Context.h
+    src/Render/Ray.cpp src/Render/Ray.h
+    src/Object/Sphere.cpp src/Object/Sphere.h
 )
 
 include(Dependency.cmake)

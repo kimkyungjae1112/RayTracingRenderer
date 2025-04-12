@@ -10,16 +10,20 @@ std::unique_ptr<Context> Context::Create()
 void Context::Render()
 {
     // === 카메라 기준 벡터 설정 ===
-    Vector W = -CameraInfo.Target.Normalization(); // 뒤쪽 방향
-    Vector U = (CameraInfo.Target * CameraInfo.Up).Normalization(); // 오른쪽
-    Vector V = (U * CameraInfo.Target).Normalization(); // 위쪽
-    std::cout << W << U << V << std::endl;
+    Vector AT = CameraInfo.D - CameraInfo.E;
+    Vector U = AT * CameraInfo.Up;
+	Vector V = U * AT;
+	Vector W = -AT;
+    std::cout << "U : " << U.Normalization() 
+              << "V : " << V.Normalization() 
+              << "W : " << W.Normalization() 
+              << "E : " << CameraInfo.E 
+              << std::endl;
 
     Matrix Mat4;
-    Mat4.ViewingTransformationMat({W,U,V, CameraInfo.E}); 
+    Mat4.ViewingTransformationMat({U, V, W, CameraInfo.E}); 
     std::cout << Mat4 << std::endl;
 
-    // nx = 960, ny = 540
     // 해상도 정보
     int nx = WindowInfo.ScreenWidth;
     int ny = WindowInfo.ScreenHeight;
@@ -27,7 +31,7 @@ void Context::Render()
 
     glPointSize(1.0f);
     glBegin(GL_POINTS);  // 점 단위로 그리기 시작
-
+    Sphere sphere{Vector(0, 0, 0), 2.0};    
     for (int j = 0; j < ny; ++j)
     {
         for (int i = 0; i < nx; ++i)
@@ -36,14 +40,41 @@ void Context::Render()
             double py = (ny / 2.0 - j - 0.5);
             Vector pixelScreenSpace = {px, py, d, 1};
             Vector pixelWorld = Mat4 * pixelScreenSpace;
-            Vector rayDir = (pixelWorld - CameraInfo.E).Normalization();
+            Vector RayDir = (pixelWorld - CameraInfo.E).Normalization();
+            Ray ray{CameraInfo.E, RayDir};
+           
+            // double a = RayDir.DotProduct(RayDir);
+            // std::cout << "[" << i << "," << j << "] ray.Direction: " << RayDir << ", dot: " << a << std::endl;
 
-            if (j > ny / 2 == 0) glColor3ub(0, 255, 0);
-            else glColor3ub(255, 0, 0);
-
-            std::cout << "Screen Space Pos: " << pixelScreenSpace << std::endl;
-            std::cout << "World Pos       : " << pixelWorld << std::endl;
-            std::cout << "Ray Direction   : " << rayDir << std::endl;
+            double t;
+            if (sphere.Intersect(ray, t))
+            {
+                glColor3ub(0, 0, 255); // 교차: 파랑
+            }
+            else
+            {
+                glColor3ub(255, 0, 0); // 미교차: 빨강
+            }
+            if (i == nx / 2 && j == ny / 2) 
+            {
+                std::cout << "[중앙 픽셀]" << std::endl;
+                std::cout << "pixelScreenSpace: " << pixelScreenSpace << std::endl;
+                std::cout << "pixelWorld      : " << pixelWorld << std::endl;
+                std::cout << "rayDir          : " << RayDir << std::endl;
+                std::cout << "E               : " << CameraInfo.E << std::endl;
+                if (sphere.Intersect(ray, t)) 
+                {
+                    std::cout << "✅ HIT!" << std::endl;
+                } 
+                else 
+                {
+                    std::cout << "❌ MISS" << std::endl;
+                }
+            }
+            
+            // std::cout << "Screen Space Pos: " << pixelScreenSpace << std::endl;
+            // std::cout << "World Pos       : " << pixelWorld << std::endl;
+            // std::cout << "Ray Direction   : " << RayDir << std::endl;
 
             // 정규화된 위치로 바꿔서 점 찍기 (OpenGL 좌표는 [-1,1])
             float x = (2.0f * i) / (float)(nx - 1) - 1.0f;

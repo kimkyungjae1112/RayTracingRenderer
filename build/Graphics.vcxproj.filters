@@ -13,6 +13,12 @@
     <ClCompile Include="C:\Work\Graphics_Practice\src\Render\Context.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Work\Graphics_Practice\src\Render\Ray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Graphics_Practice\src\Object\Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Work\Graphics_Practice\src\Math\Vector.h">
@@ -22,6 +28,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Work\Graphics_Practice\src\Render\Context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Graphics_Practice\src\Render\Ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Graphics_Practice\src\Object\Sphere.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

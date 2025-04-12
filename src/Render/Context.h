@@ -8,6 +8,8 @@
 #include <memory.h>
 #include "../Math/Vector.h"
 #include "../Math/Matrix.h"
+#include "../Object/Sphere.h"
+#include "Ray.h"
 
 class Context
 {
@@ -22,10 +24,9 @@ private:
 
     struct FCameraInfo
     {
-        Vector E{0.0, -3.0, 0.0};
-        Vector D{0.0, 0.0, 0.0};
-        Vector Target{D - E};
-        Vector Up{0.0, 0.0, 1.0};
+        Vector E{0.0, 0.0, 10.0 , 1.0};
+        Vector D{0.0, 0.0, 0.0, 1.0};
+        Vector Up{0.0, 1.0, 0.0};
     };
     FCameraInfo CameraInfo; 
 
@@ -37,7 +38,7 @@ private:
         double Fov = 90.0;
         double Aspect = ScreenWidth / ScreenHeight;
         double Near = 1.0;
-        double Far = 100.0;
+        double Far = 200.0;
         double Distance{ScreenHeight / (2 * tan(Fov * M_PI / 360.0))};
     };
     FWindowInfo WindowInfo;

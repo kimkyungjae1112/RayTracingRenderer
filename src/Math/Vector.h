@@ -9,9 +9,10 @@ class Vector
 {
 public:
 	/* 아무 값도 넣어주지 않았다면 점으로 인식 */
-	Vector() : x(0), y(0), z(0), w(1) {}
+	Vector() noexcept : x(0), y(0), z(0), w(1) {}
 	/* 기본 Vector 인스턴스를 점이 아닌 벡터로 인식 */
-	Vector(const double& x, const double& y, const double& z, const double& w = 0) : x(x), y(y), z(z), w(w) {}
+	Vector(const double& x, const double& y, const double& z, const double& w = 0) noexcept 
+		: x(x), y(y), z(z), w(w) {}
 
     static Vector OuterProduct(const Vector& lhs, const Vector& rhs);
     static double Dist(const Vector& lhs, const Vector& rhs);

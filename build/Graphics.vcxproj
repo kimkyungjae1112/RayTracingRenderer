@@ -324,6 +324,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Work\Graphics_Practice\src\Math\Matrix.h" />
     <ClCompile Include="C:\Work\Graphics_Practice\src\Render\Context.cpp" />
     <ClInclude Include="C:\Work\Graphics_Practice\src\Render\Context.h" />
+    <ClCompile Include="C:\Work\Graphics_Practice\src\Render\Ray.cpp" />
+    <ClInclude Include="C:\Work\Graphics_Practice\src\Render\Ray.h" />
+    <ClCompile Include="C:\Work\Graphics_Practice\src\Object\Sphere.cpp" />
+    <ClInclude Include="C:\Work\Graphics_Practice\src\Object\Sphere.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Work\Graphics_Practice\build\ZERO_CHECK.vcxproj">
